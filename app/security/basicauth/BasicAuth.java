@@ -1,4 +1,4 @@
-package authentication.basicauth;
+package security.basicauth;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -59,7 +59,7 @@ public class BasicAuth {
 
     public static class UnauthorizedAction extends Action {
 
-        protected String realm = "Basic realm=\"Access is restricted\"";
+        protected String realm;
         
         public UnauthorizedAction(String realm) {
             this.realm = "Basic realm=\"" + realm + "\"";
