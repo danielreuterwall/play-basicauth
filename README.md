@@ -1,4 +1,4 @@
 play-basicauth
 ==============
 
-Simple Play application to show how to implement basic authentication with Play
+Simple application to show how to implement basic authentication with Play 2.0
